@@ -1,0 +1,156 @@
+[
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/.eslintrc.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/app.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/controller/clientController.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/controller/invoiceController.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/routes/clientRoutes.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/routes/invoiceRoutes.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/script.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/server.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/service/clientService.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/service/invoiceService.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  },
+  {
+    "filePath": "/Users/sofiane/Documents/CESI/Strategie-Qual-Dev/TP1/api/utils/database.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": [
+      { "ruleId": "no-extra-semi", "replacedBy": [] },
+      { "ruleId": "no-mixed-spaces-and-tabs", "replacedBy": [] }
+    ]
+  }
+]

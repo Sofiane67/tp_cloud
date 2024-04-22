@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env-example
+.eslintrc.js
+.git
+.gitignore
+.vscode
+coverage
+cypress
+node_modules
+package-lock.json
+report.json
+cypress
+init-database.sql
+.eslintignore
+cypress.config.js
+jest.config.js
