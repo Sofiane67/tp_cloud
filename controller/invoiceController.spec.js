@@ -14,7 +14,7 @@ describe("Invoice Controller", () => {
                     invoiceNumber: "FACT2024006",
                     title: "Concéption Logo",
                     amount: "500",
-                    clientId: 2
+                    clientd: 2
                 }
             } 
 
