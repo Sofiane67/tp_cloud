@@ -8,9 +8,21 @@ on:
 
 jobs:
 
+  test: 
+    name: unit test
+    runs-on: ubuntu-latest
+
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Test app
+      run: 
+        npm install
+        npm test
+
   build:
 
     runs-on: ubuntu-latest
+    needs: test
 
     steps:
     - uses: actions/checkout@v3
