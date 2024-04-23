@@ -15,7 +15,7 @@ jobs:
     steps: 
     - uses: actions/checkout@v3
     - name: Test app
-      run: 
+      run: |
         npm install
         npm test
 
