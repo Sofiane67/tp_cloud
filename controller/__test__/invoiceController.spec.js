@@ -4,17 +4,17 @@ describe("Invoice Controller", () => {
         let invoiceController;
         let invoiceService;
         beforeEach(() => {
-            invoiceService = require("../service/invoiceService");
-            invoiceController = require("./invoiceController")
+            invoiceService = require("../../service/invoiceService");
+            invoiceController = require("../invoiceController")
         })
 
-        it("TEST 1", async() => {
+        it("TEST UNITAIRE", async() => { 
             const req = {
                 body: {
                     invoiceNumber: "FACT2024006",
                     title: "Concéption Logo",
                     amount: "500",
-                    clientd: 2
+                    clientId: 2
                 }
             } 
 
@@ -31,7 +31,7 @@ describe("Invoice Controller", () => {
                 clientId: 2
             }
 
-            const createSpy = jest.spyOn(invoiceService, 'create').mockImplementationOnce((mockBody) => {
+            const createSpy = jest.spyOn(invoiceService, 'create').mockImplementationOnce(() => {
                 return {
                     status: "success",
                     message: "Facture ajoutée avec succès"
@@ -70,7 +70,7 @@ describe("Invoice Controller", () => {
                 amount: "500",
             }
 
-            const createSpy = jest.spyOn(invoiceService, 'create').mockImplementationOnce((mockBody) => {
+            const createSpy = jest.spyOn(invoiceService, 'create').mockImplementationOnce(() => {
                 return {
                     sqlError: "error.message"
                 }

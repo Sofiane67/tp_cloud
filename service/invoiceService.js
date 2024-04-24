@@ -1,6 +1,7 @@
 const db = require("../utils/database")
 
 exports.findAll = async () => {
+    console.log("OK SERVICE", db)
     try{
         const result = await db.execute("SELECT invoices.id as id, invoiceNumber,title,createdAt,paymentDate,status,amount,clientId,lastName,firstName,email FROM invoices INNER JOIN clients ON invoices.clientId = clients.id");
         return result[0]
@@ -46,8 +47,8 @@ exports.create = async (invoice) => {
             "INSERT INTO invoices (invoiceNumber, title, amount, clientId) VALUES (?,?,?,?)",
             [invoiceNumber, title, amount, clientId]
             );
-
-        return result
+            console.log("CREATE ", result[0])
+        return result[0].affectedRows
     }
     catch(error){
         return {

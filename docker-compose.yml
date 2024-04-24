@@ -23,15 +23,15 @@ services:
     ports:
       - 8081:8080
 
-  app:
-    # Indique qu'on utilise les varibales d'environement de notre projet dans l'image docker 
-    env_file:
-      - .env
-    # build: .
-    image: sofiane67/api-app:latest
-    restart: always
-    ports:
-      - "5600:5600"
-    depends_on:
-      - db
+  # app:
+  #   # Indique qu'on utilise les varibales d'environement de notre projet dans l'image docker 
+  #   env_file:
+  #     - .env
+  #   # build: .
+  #   image: sofiane67/api-app:latest
+  #   restart: always
+  #   ports:
+  #     - "5600:5600"
+  #   depends_on:
+  #     - db
 

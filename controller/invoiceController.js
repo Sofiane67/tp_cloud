@@ -18,7 +18,7 @@ exports.fetchAll = async (req, res) => {
             status: "success",
             data: invoices
         }
-    
+
         res.status(200).json(response)
     }
     catch(error){
