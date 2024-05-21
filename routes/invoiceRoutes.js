@@ -10,10 +10,10 @@ const {
     removeInvoice,
 } = invoiceController;
 
-router.get("/invoices", fetchAll)
-router.get("/invoices/:id", fetchById)
-router.post("/invoices", createInvoice)
-router.patch("/invoices/:id", editInvoice)
-router.delete("/invoices/:id", removeInvoice)
+router.get("/", fetchAll)
+router.get("/:id", fetchById)
+router.post("/", createInvoice)
+router.patch("/:id", editInvoice)
+router.delete("/:id", removeInvoice)
 
 module.exports = router;

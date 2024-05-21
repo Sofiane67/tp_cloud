@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
   });
 
-app.use("/api", invoiceRoutes);
-app.use("/api", clientRoutes);
+app.use("/invoices", invoiceRoutes);
+app.use("/clients", clientRoutes);
 
 module.exports = app;

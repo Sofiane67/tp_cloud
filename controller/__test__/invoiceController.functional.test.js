@@ -23,7 +23,7 @@ describe("Ivoice Controller functional test", () => {
 
         invoiceService.create = jest.fn().mockReturnValue(affectedRows);
 
-        const response = await request(app).post('/api/invoices')
+        const response = await request(app).post('/invoices')
         .send(invoiceData);
 
         expect(response.status).toBe(201);
