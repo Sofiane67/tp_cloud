@@ -3,6 +3,8 @@ name: Docker Image CI CESI
 on:
   push:
     branches: [ "main" ]
+    tags:
+      - '*'
   pull_request:
     branches: [ "main" ]
 
@@ -78,8 +80,24 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Docker meta
+      id: meta
+      uses: docker/metadata-action@v5
+      with: 
+        images: |
+          sofiane67/api-app
+        tags: |
+          type=schedule
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=semver,pattern={{major}}
+          type=sha
+
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag sofiane67/api-app
+      run: docker build . --file Dockerfile --tag ${{ steps.meta.outputs.tags }}
   push_to_registry:
     name: push docker image to hub
     runs-on: ubuntu-latest
@@ -99,4 +117,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: sofiane67/api-app
+          tags: ${{ steps.meta.outputs.tags }}
