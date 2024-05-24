@@ -4,6 +4,7 @@ const clientController = require("../controller/clientController");
 
 
 router.get("/", clientController.fetchAll)
+router.get("/:id", clientController.fetchOne)
 
 
 module.exports = router;
