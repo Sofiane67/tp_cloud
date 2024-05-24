@@ -72,7 +72,7 @@ exports.createInvoice = async (req, res) => {
 
         const response = {
             status: "success",
-            message: "Facture ajoutée avec succèss"
+            message: "Facture ajoutée avec succès"
         }
     
         res.status(201).json(response)
